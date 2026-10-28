@@ -1,80 +1,55 @@
 
-/**
- * Class declare object.
- * @author Admin
- */
 public class Doctor {
 
-    /**
-     * Attribute Code.
-     */
-    private String Code;
+    private String code;
     
-    /**
-     * Attribute Name.
-     */
-    private String Name;
+    private String name;
     
-    /**
-     * Attribute Specialization.
-     */
-    private String Specialization;
+    private String specialization;
     
-    /**
-     * Attribute Availability.
-     */
-    private int Availability;
+    private int availability;
 
-   //Default contructor.
     public Doctor() {
     }
 
-    /**
-     * Contructor with all attribute.
-     * @param Code
-     * @param Name
-     * @param Specialization
-     * @param Availability 
-     */
-    public Doctor(String Code, String Name, String Specialization, int Availability) {
-        this.Code = Code;
-        this.Name = Name;
-        this.Specialization = Specialization;
-        this.Availability = Availability;
+    public Doctor(String code, String name, String specialization, int availability) {
+        this.code = code;
+        this.name = name;
+        this.specialization = specialization;
+        this.availability = availability;
     }
 
     public String getCode() {
-        return Code;
+        return code;
     }
 
-    public void setCode(String Code) {
-        this.Code = Code;
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
-    public void setName(String Name) {
-        this.Name = Name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getSpecialization() {
-        return Specialization;
+        return specialization;
     }
 
-    public void setSpecialization(String Specialization) {
-        this.Specialization = Specialization;
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
     }
 
     public int getAvailability() {
-        return Availability;
+        return availability;
     }
 
-    public void setAvailability(int Availability) {
-        this.Availability = Availability;
+    public void setAvailability(int availability) {
+        this.availability = availability;
     }
-            
-            
-            
+    
+    
 }
